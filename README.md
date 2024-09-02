@@ -18,6 +18,6 @@
     </ol>
     <h2>Demo</h2>
     <p>Below is a GIF demonstrating the input/output of the project:</p>
-    <img src="output/output.gif" alt="Demo GIF">
+    <img src="output/output.gif" alt="Demo GIF" width="200>
 </body>
 </html>
