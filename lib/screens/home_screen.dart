@@ -17,22 +17,18 @@ class _MyHomePageState extends ConsumerState<MyHomePage> {
 
   @override
   Widget build(BuildContext context) {
-    final String shortcut = ref.watch(quickActionProvider);
-
     return Scaffold(
       appBar: AppBar(
-        title: Text(
-          "Quick Actions Example - $shortcut",
-          style: const TextStyle(
+        title: const Text(
+          "Home Screen",
+          style: TextStyle(
             color: Colors.white,
           ),
         ),
         backgroundColor: Colors.purple,
       ),
       body: const Center(
-        child: Text('On home screen, long press the app icon to '
-            'get Action one or Action two options. Tapping on that action should  '
-            'set the toolbar title.'),
+        child: Text('Welcome to Main Screen'),
       ),
     );
   }

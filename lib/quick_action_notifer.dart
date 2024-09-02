@@ -23,7 +23,7 @@ class QuickActionNotifier extends StateNotifier<String> {
       ),
       const ShortcutItem(
         type: 'action_two',
-        localizedTitle: 'Profile Screen',
+        localizedTitle: 'Profile Details Screen',
         icon: 'ic_launcher',
       ),
     ]);

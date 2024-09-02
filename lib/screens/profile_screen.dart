@@ -12,7 +12,13 @@ class _ProfileScreenState extends State<ProfileScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Profile Screen"),
+        title: const Text(
+          "Profile Screen",
+          style: TextStyle(
+            color: Colors.white,
+          ),
+        ),
+        backgroundColor: Colors.purple,
       ),
       body: const Center(
         child: Text('Welcome to Profile Screen'),
@@ -33,7 +39,13 @@ class _ProfileDetailState extends State<ProfileDetail> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("ProfileDetail Screen"),
+        title: const Text(
+          "Profile Detail Screen",
+          style: TextStyle(
+            color: Colors.white,
+          ),
+        ),
+        backgroundColor: Colors.purple,
       ),
       body: const Center(
         child: Text('Welcome to ProfileDetail Screen'),

@@ -23,11 +23,11 @@ final goRouterProvider = Provider<GoRouter>((ref) {
     routes: [
       GoRoute(
         path: '/',
-        builder: (context, state) => const MyHomePage(),
+        builder: (context, state) => const MainScreen(),
       ),
       GoRoute(
         path: '/home',
-        builder: (context, state) => const MainScreen(),
+        builder: (context, state) => const MyHomePage(),
       ),
       GoRoute(
         path: '/profile',
@@ -45,9 +45,10 @@ final goRouterProvider = Provider<GoRouter>((ref) {
       if (quickAction == 'action_one' && state.fullPath != '/home') {
         quickActionNotifier.resetAction();
         return '/home';
-      } else if (quickAction == 'action_two' && state.fullPath != '/profile') {
+      } else if (quickAction == 'action_two' &&
+          state.fullPath != '/profile/details') {
         quickActionNotifier.resetAction();
-        return '/profile';
+        return '/profile/details';
       }
       return null; // No redirection needed
     },
