@@ -1,16 +1,23 @@
-# quick_actions_example
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<!DOCTYPE html>
+<html lang="en">
+<body>
+    <h1>Project Overview</h1>
+    <p>This project demonstrates how to use Quick Actions with Flutter, integrated with GoRouter and Riverpod for efficient state management and routing.</p>
+    <h2>Features</h2>
+    <ul>
+        <li>Quick Actions integration with Flutter.</li>
+        <li>State management using Riverpod's <code>StateNotifierProvider</code>.</li>
+        <li>Routing with GoRouter, including dynamic redirections based on Quick Actions.</li>
+    </ul>
+    <h2>Quick Start</h2>
+    <p>Follow these steps to get started:</p>
+    <ol>
+        <li>Clone the repository.</li>
+        <li>Run <code>flutter pub get</code> to install dependencies.</li>
+        <li>Use <code>flutter run</code> to start the application.</li>
+    </ol>
+    <h2>Demo</h2>
+    <p>Below is a GIF demonstrating the input/output of the project:</p>
+    <img src="output/output.gif" alt="Demo GIF">
+</body>
+</html>

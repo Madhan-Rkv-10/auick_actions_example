@@ -28,7 +28,7 @@ class _MyHomePageState extends ConsumerState<MyHomePage> {
         backgroundColor: Colors.purple,
       ),
       body: const Center(
-        child: Text('Welcome to Main Screen'),
+        child: Text('Welcome to Home Screen'),
       ),
     );
   }
